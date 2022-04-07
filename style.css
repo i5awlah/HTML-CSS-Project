@@ -1,0 +1,102 @@
+/* body of Home Page*/
+body {
+  background-image: linear-gradient(#9894e4, #e86464);
+  background-attachment: fixed;
+}
+/* body of Contact Me Page*/
+#contact_me_body {
+    background-image: url(background-image.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+.personal_info {
+  overflow: hidden;
+}
+
+.personal_info img {
+  margin-right: 15px;
+  float: left;
+}
+
+.personal_info h2,
+.personal_info h3,
+.personal_info p {
+  margin-left: 15px;
+  display: block;
+}
+
+/* Use hr tag and customize it */
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+th,
+td {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.contact th,
+.contact td {
+  text-align: center;
+}
+
+.info_child {
+    position: absolute;
+    top: 0;
+    left: 190px;
+  }
+  .info_parent {
+    position: relative;
+  }
+
+input[type="submit"],
+button {
+  margin-top: 10px;
+  background-color: #ff4741;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  margin-top: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+label {
+  font-family: "Cairo", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+
